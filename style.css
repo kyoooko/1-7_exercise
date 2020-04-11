@@ -1,0 +1,39 @@
+/* 共通 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main-visual{
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-visual h1{
+padding: 20px;
+}
+
+
+main {
+  /* padding: 50px; */
+  margin: 50px auto;
+  width: 840px;
+  /* background-color: tomato ; */
+}
+section{
+  border-bottom:1px solid #d1d1d1 ;
+  padding-bottom: 30px;
+  /* background-color: turquoise; */
+}
+.service2,.service3,.service4{
+  padding-top: 30px;
+
+}
