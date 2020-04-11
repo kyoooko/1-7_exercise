@@ -9,7 +9,7 @@
   display: block;
   clear: both;
 }
-
+/* メインビジュアル */
 .main-visual{
   height: 400px;
   background-image: url(img/mv.jpg);
@@ -21,7 +21,7 @@
 padding: 20px;
 }
 
-
+/* メイン */
 main {
   /* padding: 50px; */
   margin: 50px auto;
